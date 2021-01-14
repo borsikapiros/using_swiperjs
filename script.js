@@ -1,11 +1,12 @@
 const mySwiper = new Swiper('.swiper-container', {
     // Optional parameters
-    direction: 'vertical',
+    direction: 'horizontal',
     loop: true,
 
     // If we need pagination
     pagination: {
         el: '.swiper-pagination',
+        dynamicBullets: true,
     },
 
     // Navigation arrows
